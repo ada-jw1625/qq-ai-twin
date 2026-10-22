@@ -1,0 +1,36 @@
+{
+  "bot_name": "小白",
+  "owner_name": "主人",
+  "owner_qq": 0,
+  "persona_file": "persona.md",
+  "profiles_dir": "profiles",
+
+  "napcat_ws_url": "ws://127.0.0.1:3001",
+  "napcat_token": "改成你在 NapCat 里设置的 WebSocket token",
+
+  "llm_base_url": "https://api.deepseek.com",
+  "llm_api_key": "sk-xxxx",
+  "llm_model": "deepseek-flash",
+  "vision_model": "deepseek-flash",
+  "temperature": 1.3,
+
+  "notice": "（自动提示）这个号是我的 AI 分身，用大模型模仿我的语气在聊天，不是本人在回哦～有急事请直接找我本人",
+  "group_notice": "（自动提示）我是群友的 AI 分身，@我或者回复我就能聊天，不是本人在回哦～",
+  "groups": [],
+
+  "debounce_seconds": 4,
+  "history_turns": 30,
+  "max_replies_per_friend_per_day": 150,
+  "max_group_replies_per_day": 100,
+  "group_context": 40,
+  "group_log_max": 300,
+  "max_memories": 60,
+  "initial_affinity": 40,
+
+  "emoji_every": 5,
+  "sticker_every": 4,
+  "typo_rate": 0,
+  "long_task_cooldown": 60,
+  "repeat_probability": 0.6,
+  "repeat_cooldown": 300
+}
